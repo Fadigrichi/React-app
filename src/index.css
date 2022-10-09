@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+.fedi{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    box-sizing: border-box;
+    background: rgb(139, 133, 133);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.fedi a{
+    margin-left: 40px;
+    margin-top: 12px;
+    color:black;
+    font-family: sans-serif;
+    font-weight: 550;
+    text-decoration: none;
 }
