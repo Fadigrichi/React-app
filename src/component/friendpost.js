@@ -1,6 +1,6 @@
  import React from "react";
 
-export const friend =(props)=>{
+export const friendpost =(props)=>{
     
 
   return(
