@@ -1,0 +1,30 @@
+ .status{
+    background-color: rgb(199, 194, 214);
+    color:white;
+    text-align: center;
+    margin-top: 6px;
+    width:300px;
+    margin-left:50px;
+    display:grid;
+    grid-template-columns: repeat(3,100px);
+    border-radius: 8px;
+    justify-content: center;
+ }
+.status p{
+   width: 70px;
+   height: 30px;
+   border-radius: 5px;
+   background-color: red;
+   color:white;
+   padding-top: 5px;
+   margin-left: 10px;
+   box-sizing: border-box;
+}
+.status .invite{
+   background-color: blue;
+   color: white;
+   font-family: sans-serif;
+   font-weight: 500;
+   letter-spacing: 1px;
+   border: none;
+}

@@ -1,14 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import reportWebVitals from './reportWebVitals';
-
-
+import ReactDOM from 'react-dom/client'
+ import {Post}  from './component/post';
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
     <div>
-  <p>fedi grichi </p>
-    </div>
+<Post/>
+   </div>
 )
-
-
-reportWebVitals();
