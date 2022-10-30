@@ -1,11 +1,25 @@
 import React from "react"
-import "./status.css"
-export let Statu =(props)=>{
+import "../css/status.css"
+export function Status(props){
     return(
         <div className="status">
-<p>{props.name}</p>
-<p>{props.age}</p>
-<p className="invite">invite</p>
+        <p className="profile"></p>
+        <p></p>
+        <nav>
+            <p></p>
+            <p></p>
+            <p></p>
+        </nav>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <div className="setting">
+         <p></p>
+         <p></p>
+         <p className="logout"></p>
+        </div>
+        <p className="close">X</p>
         </div>
     )
 }
