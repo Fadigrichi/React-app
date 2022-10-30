@@ -1,0 +1,71 @@
+ .status{
+background-color: rgb(214, 211, 211);
+color:white;
+display: grid;
+grid-template-columns: repeat(2,50px);
+justify-content: center;
+grid-gap: 8px;
+width: 130px;
+border-radius: 10px;
+
+ }
+ .status p{
+
+    height: 50px;
+    margin-top:6px;
+    border-radius: 8px;
+    border:1px solid black;
+
+ }
+.status .profile{
+    width: 50px;
+    grid-row: span 1;
+    border-radius: 50%;
+    background-color: rgb(254, 255, 255);
+    border: 2px solid rgb(56, 135, 240);
+}
+.status nav{
+    grid-column:  span 2;
+    display: grid;
+    grid-template-columns: repeat(3,30px);
+    grid-gap: 4px;
+}
+.status nav p{
+    margin: 0px;
+    height: 30px;
+}
+.setting{
+    display: grid;
+    grid-template-columns: repeat(2,50px);
+    justify-content: center;
+    grid-gap:8px;
+    margin-left: 45px;
+
+}
+.setting p{
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border:2px solid blue;
+}
+.setting .logout{
+    grid-column: span 2;
+    margin-top: 2px;
+    height: 40px;
+    background-color: rgb(255, 22, 34);
+    border:none;
+}
+.status .close{
+    position: absolute;
+     width:40px;
+     height: 40px;
+     background-color: black;
+     text-align: center;
+     padding-top:10px;
+      color:white;
+      box-sizing: border-box;
+      border-radius: 50%;
+      bottom:30px;
+      left:45px;
+      font-family: sans-serif;
+      font-weight: 500;
+}
